@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- The Left Leaf with an elegant gradient -->
+    <path android:pathData="M54,80 C54,52 38,38 26,38 C33,54 45,70 54,80 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:type="linear"
+                android:startX="26"
+                android:startY="38"
+                android:endX="54"
+                android:endY="80">
+                <item android:offset="0.0" android:color="#D1E8CF" />
+                <item android:offset="1.0" android:color="#7CB342" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- The Right Leaf with an elegant gradient -->
+    <path android:pathData="M54,80 C54,58 68,44 80,40 C76,56 63,72 54,80 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:type="linear"
+                android:startX="80"
+                android:startY="40"
+                android:endX="54"
+                android:endY="80">
+                <item android:offset="0.0" android:color="#81C784" />
+                <item android:offset="1.0" android:color="#386B3E" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Center vertical stalk / stem -->
+    <path
+        android:pathData="M54,82 C55,55 53.5,35 54,24"
+        android:strokeWidth="5"
+        android:strokeLineCap="round"
+        android:strokeColor="#FFFFFF" />
+
+    <!-- Cute rising top leaf bud with custom gradient -->
+    <path android:pathData="M54,42 C51,32 54,18 54,15 C54,18 57,32 54,42 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:type="linear"
+                android:startX="54"
+                android:startY="15"
+                android:endX="54"
+                android:endY="42">
+                <item android:offset="0.0" android:color="#FFF59D" />
+                <item android:offset="1.0" android:color="#81C784" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Sparkle 1 (Top-Left) -->
+    <path
+        android:fillColor="#FFF59D"
+        android:pathData="M34,22 L35.5,25 L38.5,25.5 L35.5,27 L34,30 L32.5,27 L29.5,25.5 L32.5,25 Z" />
+
+    <!-- Sparkle 2 (Top-Right) -->
+    <path
+        android:fillColor="#FFF59D"
+        android:pathData="M76,26 L77.5,29 L80.5,29.5 L77.5,31 L76,34 L74.5,31 L71.5,29.5 L74.5,29 Z" />
+
+    <!-- White glowing circle underneath sprout to anchor it -->
+    <path
+        android:fillColor="#15FFFFFF"
+        android:pathData="M54,80m-24,0a24,24 0,1,1 48,0a24,24 0,1,1 -48,0" />
+</vector>
